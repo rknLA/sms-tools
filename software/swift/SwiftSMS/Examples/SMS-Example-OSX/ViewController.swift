@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import SSMS_OSX
 
 class ViewController: NSViewController {
 
@@ -14,6 +15,8 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let sm = SineModel()
+        sm.analyze()
     }
 
     override var representedObject: AnyObject? {
