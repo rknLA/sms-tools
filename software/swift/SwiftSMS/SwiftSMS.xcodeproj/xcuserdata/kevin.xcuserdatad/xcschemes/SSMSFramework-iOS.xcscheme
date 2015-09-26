@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0ABCBAB41BB6C01E00AC6CA9"
-               BuildableName = "SSMSFramework-iOS.framework"
-               BlueprintName = "SSMSFramework-iOS"
+               BuildableName = "SSMS_iOS.framework"
+               BlueprintName = "SSMS_iOS"
                ReferencedContainer = "container:SwiftSMS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0ABCBAB41BB6C01E00AC6CA9"
-            BuildableName = "SSMSFramework-iOS.framework"
-            BlueprintName = "SSMSFramework-iOS"
+            BuildableName = "SSMS_iOS.framework"
+            BlueprintName = "SSMS_iOS"
             ReferencedContainer = "container:SwiftSMS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0ABCBAB41BB6C01E00AC6CA9"
-            BuildableName = "SSMSFramework-iOS.framework"
-            BlueprintName = "SSMSFramework-iOS"
+            BuildableName = "SSMS_iOS.framework"
+            BlueprintName = "SSMS_iOS"
             ReferencedContainer = "container:SwiftSMS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +83,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0ABCBAB41BB6C01E00AC6CA9"
-            BuildableName = "SSMSFramework-iOS.framework"
-            BlueprintName = "SSMSFramework-iOS"
+            BuildableName = "SSMS_iOS.framework"
+            BlueprintName = "SSMS_iOS"
             ReferencedContainer = "container:SwiftSMS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

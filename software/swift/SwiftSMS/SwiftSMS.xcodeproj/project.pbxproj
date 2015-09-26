@@ -19,7 +19,10 @@
 		0ABCBAB81BB6C01E00AC6CA9 /* SSMSFramework-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCBAB71BB6C01E00AC6CA9 /* SSMSFramework-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ABCBAD41BB6C03600AC6CA9 /* SSMSFramework-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCBAD31BB6C03600AC6CA9 /* SSMSFramework-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ABCBAE01BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBADF1BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift */; };
-		0ABCBAE21BB6C05400AC6CA9 /* SSMSFramework-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABCBAD11BB6C03600AC6CA9 /* SSMSFramework-OSX.framework */; settings = {ASSET_TAGS = (); }; };
+		0ABCBAE21BB6C05400AC6CA9 /* SSMS_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABCBAD11BB6C03600AC6CA9 /* SSMS_OSX.framework */; settings = {ASSET_TAGS = (); }; };
+		0ABCBAEC1BB6C24B00AC6CA9 /* SineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBAEB1BB6C24B00AC6CA9 /* SineModel.swift */; settings = {ASSET_TAGS = (); }; };
+		0ABCBAED1BB6C24B00AC6CA9 /* SineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBAEB1BB6C24B00AC6CA9 /* SineModel.swift */; settings = {ASSET_TAGS = (); }; };
+		0ABCBAEE1BB6C2ED00AC6CA9 /* SSMS_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABCBAB51BB6C01E00AC6CA9 /* SSMS_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +49,16 @@
 		0ABCBAA71BB6BFDF00AC6CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ABCBAAA1BB6BFDF00AC6CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ABCBAAC1BB6BFDF00AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ABCBAB51BB6C01E00AC6CA9 /* SSMSFramework-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SSMSFramework-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABCBAB51BB6C01E00AC6CA9 /* SSMS_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSMS_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABCBAB71BB6C01E00AC6CA9 /* SSMSFramework-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSMSFramework-iOS.h"; sourceTree = "<group>"; };
 		0ABCBAB91BB6C01E00AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ABCBAD11BB6C03600AC6CA9 /* SSMSFramework-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SSMSFramework-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABCBAD11BB6C03600AC6CA9 /* SSMS_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSMS_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABCBAD31BB6C03600AC6CA9 /* SSMSFramework-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSMSFramework-OSX.h"; sourceTree = "<group>"; };
 		0ABCBAD51BB6C03600AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ABCBADD1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSMS-Framework-OSX-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABCBADF1BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMS_Framework_OSX_Tests.swift; sourceTree = "<group>"; };
 		0ABCBAE11BB6C05400AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABCBAEB1BB6C24B00AC6CA9 /* SineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABCBAEE1BB6C2ED00AC6CA9 /* SSMS_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ABCBAE21BB6C05400AC6CA9 /* SSMSFramework-OSX.framework in Frameworks */,
+				0ABCBAE21BB6C05400AC6CA9 /* SSMS_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +116,8 @@
 			children = (
 				0ABCBA8A1BB6BFD100AC6CA9 /* SMS-Example-iOS.app */,
 				0ABCBAA11BB6BFDF00AC6CA9 /* SMS-Example-OSX.app */,
-				0ABCBAB51BB6C01E00AC6CA9 /* SSMSFramework-iOS.framework */,
-				0ABCBAD11BB6C03600AC6CA9 /* SSMSFramework-OSX.framework */,
+				0ABCBAB51BB6C01E00AC6CA9 /* SSMS_iOS.framework */,
+				0ABCBAD11BB6C03600AC6CA9 /* SSMS_OSX.framework */,
 				0ABCBADD1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests.xctest */,
 			);
 			name = Products;
@@ -184,6 +189,7 @@
 		0ABCBAE91BB6C08000AC6CA9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0ABCBAEB1BB6C24B00AC6CA9 /* SineModel.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -254,9 +260,9 @@
 			productReference = 0ABCBAA11BB6BFDF00AC6CA9 /* SMS-Example-OSX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0ABCBAB41BB6C01E00AC6CA9 /* SSMSFramework-iOS */ = {
+		0ABCBAB41BB6C01E00AC6CA9 /* SSMS_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0ABCBAC61BB6C01E00AC6CA9 /* Build configuration list for PBXNativeTarget "SSMSFramework-iOS" */;
+			buildConfigurationList = 0ABCBAC61BB6C01E00AC6CA9 /* Build configuration list for PBXNativeTarget "SSMS_iOS" */;
 			buildPhases = (
 				0ABCBAB01BB6C01E00AC6CA9 /* Sources */,
 				0ABCBAB11BB6C01E00AC6CA9 /* Frameworks */,
@@ -267,14 +273,14 @@
 			);
 			dependencies = (
 			);
-			name = "SSMSFramework-iOS";
+			name = SSMS_iOS;
 			productName = "SSMSFramework-iOS";
-			productReference = 0ABCBAB51BB6C01E00AC6CA9 /* SSMSFramework-iOS.framework */;
+			productReference = 0ABCBAB51BB6C01E00AC6CA9 /* SSMS_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0ABCBAD01BB6C03600AC6CA9 /* SSMSFramework-OSX */ = {
+		0ABCBAD01BB6C03600AC6CA9 /* SSMS_OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0ABCBAD61BB6C03600AC6CA9 /* Build configuration list for PBXNativeTarget "SSMSFramework-OSX" */;
+			buildConfigurationList = 0ABCBAD61BB6C03600AC6CA9 /* Build configuration list for PBXNativeTarget "SSMS_OSX" */;
 			buildPhases = (
 				0ABCBACC1BB6C03600AC6CA9 /* Sources */,
 				0ABCBACD1BB6C03600AC6CA9 /* Frameworks */,
@@ -285,9 +291,9 @@
 			);
 			dependencies = (
 			);
-			name = "SSMSFramework-OSX";
+			name = SSMS_OSX;
 			productName = "SSMSFramework-OSX";
-			productReference = 0ABCBAD11BB6C03600AC6CA9 /* SSMSFramework-OSX.framework */;
+			productReference = 0ABCBAD11BB6C03600AC6CA9 /* SSMS_OSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0ABCBADC1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests */ = {
@@ -314,19 +320,23 @@
 		0ABCBA801BB6BFBB00AC6CA9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					0ABCBA891BB6BFD100AC6CA9 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 98PP5W79HP;
 					};
 					0ABCBAA01BB6BFDF00AC6CA9 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 					0ABCBAB41BB6C01E00AC6CA9 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 98PP5W79HP;
 					};
 					0ABCBAD01BB6C03600AC6CA9 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 98PP5W79HP;
 					};
 					0ABCBADC1BB6C05400AC6CA9 = {
 						CreatedOnToolsVersion = 7.0;
@@ -348,8 +358,8 @@
 			targets = (
 				0ABCBA891BB6BFD100AC6CA9 /* SMS-Example-iOS */,
 				0ABCBAA01BB6BFDF00AC6CA9 /* SMS-Example-OSX */,
-				0ABCBAB41BB6C01E00AC6CA9 /* SSMSFramework-iOS */,
-				0ABCBAD01BB6C03600AC6CA9 /* SSMSFramework-OSX */,
+				0ABCBAB41BB6C01E00AC6CA9 /* SSMS_iOS */,
+				0ABCBAD01BB6C03600AC6CA9 /* SSMS_OSX */,
 				0ABCBADC1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests */,
 			);
 		};
@@ -421,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABCBAEC1BB6C24B00AC6CA9 /* SineModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABCBAED1BB6C24B00AC6CA9 /* SineModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +456,7 @@
 /* Begin PBXTargetDependency section */
 		0ABCBAE41BB6C05400AC6CA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0ABCBAD01BB6C03600AC6CA9 /* SSMSFramework-OSX */;
+			target = 0ABCBAD01BB6C03600AC6CA9 /* SSMS_OSX */;
 			targetProxy = 0ABCBAE31BB6C05400AC6CA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -507,6 +519,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -526,13 +539,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SMS-Example-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Examples/SMS-Example-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SMS-Example-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -557,6 +571,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -570,12 +585,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SMS-Example-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Examples/SMS-Example-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SMS-Example-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -620,7 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SMS-Example-OSX/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Examples/SMS-Example-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -664,7 +680,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SMS-Example-OSX/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Examples/SMS-Example-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -691,6 +707,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -715,13 +732,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SSMSFramework-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/SSMSFramework-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMSFramework-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknLA.sms.SSMSFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -749,6 +766,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -767,12 +785,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SSMSFramework-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/SSMSFramework-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMSFramework-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknLA.sms.SSMSFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -800,6 +818,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -825,13 +844,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SSMSFramework-OSX/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/SSMSFramework-OSX/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMSFramework-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknLA.ssms.SSMSFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -858,6 +877,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -877,12 +897,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SSMSFramework-OSX/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/SSMSFramework-OSX/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMSFramework-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknLA.ssms.SSMSFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -998,6 +1018,7 @@
 				0ABCBA9C1BB6BFD100AC6CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ABCBAAD1BB6BFDF00AC6CA9 /* Build configuration list for PBXNativeTarget "SMS-Example-OSX" */ = {
 			isa = XCConfigurationList;
@@ -1006,22 +1027,25 @@
 				0ABCBAAF1BB6BFDF00AC6CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0ABCBAC61BB6C01E00AC6CA9 /* Build configuration list for PBXNativeTarget "SSMSFramework-iOS" */ = {
+		0ABCBAC61BB6C01E00AC6CA9 /* Build configuration list for PBXNativeTarget "SSMS_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0ABCBAC71BB6C01E00AC6CA9 /* Debug */,
 				0ABCBAC81BB6C01E00AC6CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0ABCBAD61BB6C03600AC6CA9 /* Build configuration list for PBXNativeTarget "SSMSFramework-OSX" */ = {
+		0ABCBAD61BB6C03600AC6CA9 /* Build configuration list for PBXNativeTarget "SSMS_OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0ABCBAD71BB6C03600AC6CA9 /* Debug */,
 				0ABCBAD81BB6C03600AC6CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ABCBAE51BB6C05400AC6CA9 /* Build configuration list for PBXNativeTarget "SSMS-Framework-OSX-Tests" */ = {
 			isa = XCConfigurationList;
@@ -1030,6 +1054,7 @@
 				0ABCBAE71BB6C05400AC6CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

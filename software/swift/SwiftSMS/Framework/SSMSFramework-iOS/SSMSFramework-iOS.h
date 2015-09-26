@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char SSMSFramework_iOSVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SSMSFramework_iOS/PublicHeader.h>
 
 
+@class SineModel
