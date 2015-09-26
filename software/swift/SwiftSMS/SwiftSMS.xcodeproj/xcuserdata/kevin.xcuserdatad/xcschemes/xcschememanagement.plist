@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SMS-Example-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SMS-Example-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SSMS-Framework-OSX-Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SSMSFramework-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SSMSFramework-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0ABCBA891BB6BFD100AC6CA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0ABCBAA01BB6BFDF00AC6CA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0ABCBAB41BB6C01E00AC6CA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0ABCBABD1BB6C01E00AC6CA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0ABCBAD01BB6C03600AC6CA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0ABCBADC1BB6C05400AC6CA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

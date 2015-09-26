@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABCBA8E1BB6BFD100AC6CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBA8D1BB6BFD100AC6CA9 /* AppDelegate.swift */; };
+		0ABCBA901BB6BFD100AC6CA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBA8F1BB6BFD100AC6CA9 /* ViewController.swift */; };
+		0ABCBA931BB6BFD100AC6CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBA911BB6BFD100AC6CA9 /* Main.storyboard */; };
+		0ABCBA951BB6BFD100AC6CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBA941BB6BFD100AC6CA9 /* Assets.xcassets */; };
+		0ABCBA981BB6BFD100AC6CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBA961BB6BFD100AC6CA9 /* LaunchScreen.storyboard */; };
+		0ABCBAA41BB6BFDF00AC6CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBAA31BB6BFDF00AC6CA9 /* AppDelegate.swift */; };
+		0ABCBAA61BB6BFDF00AC6CA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBAA51BB6BFDF00AC6CA9 /* ViewController.swift */; };
+		0ABCBAA81BB6BFDF00AC6CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAA71BB6BFDF00AC6CA9 /* Assets.xcassets */; };
+		0ABCBAAB1BB6BFDF00AC6CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAA91BB6BFDF00AC6CA9 /* Main.storyboard */; };
+		0ABCBAB81BB6C01E00AC6CA9 /* SSMSFramework-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCBAB71BB6C01E00AC6CA9 /* SSMSFramework-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ABCBAD41BB6C03600AC6CA9 /* SSMSFramework-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCBAD31BB6C03600AC6CA9 /* SSMSFramework-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ABCBAE01BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBADF1BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift */; };
+		0ABCBAE21BB6C05400AC6CA9 /* SSMSFramework-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABCBAD11BB6C03600AC6CA9 /* SSMSFramework-OSX.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ABCBAE31BB6C05400AC6CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ABCBA801BB6BFBB00AC6CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ABCBAD01BB6C03600AC6CA9;
+			remoteInfo = "SSMSFramework-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ABCBA8A1BB6BFD100AC6CA9 /* SMS-Example-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMS-Example-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABCBA8D1BB6BFD100AC6CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0ABCBA8F1BB6BFD100AC6CA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0ABCBA921BB6BFD100AC6CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ABCBA941BB6BFD100AC6CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ABCBA971BB6BFD100AC6CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ABCBA991BB6BFD100AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABCBAA11BB6BFDF00AC6CA9 /* SMS-Example-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMS-Example-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABCBAA31BB6BFDF00AC6CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0ABCBAA51BB6BFDF00AC6CA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0ABCBAA71BB6BFDF00AC6CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ABCBAAA1BB6BFDF00AC6CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ABCBAAC1BB6BFDF00AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABCBAB51BB6C01E00AC6CA9 /* SSMSFramework-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SSMSFramework-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABCBAB71BB6C01E00AC6CA9 /* SSMSFramework-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSMSFramework-iOS.h"; sourceTree = "<group>"; };
+		0ABCBAB91BB6C01E00AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABCBAD11BB6C03600AC6CA9 /* SSMSFramework-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SSMSFramework-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABCBAD31BB6C03600AC6CA9 /* SSMSFramework-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSMSFramework-OSX.h"; sourceTree = "<group>"; };
+		0ABCBAD51BB6C03600AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABCBADD1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSMS-Framework-OSX-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABCBADF1BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMS_Framework_OSX_Tests.swift; sourceTree = "<group>"; };
+		0ABCBAE11BB6C05400AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ABCBA871BB6BFD100AC6CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBA9E1BB6BFDF00AC6CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBAB11BB6C01E00AC6CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBACD1BB6C03600AC6CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBADA1BB6C05400AC6CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCBAE21BB6C05400AC6CA9 /* SSMSFramework-OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABCBA7F1BB6BFBB00AC6CA9 = {
+			isa = PBXGroup;
+			children = (
+				0ABCBAE81BB6C05E00AC6CA9 /* Framework */,
+				0ABCBAEA1BB6C0AF00AC6CA9 /* Example Apps */,
+				0ABCBA8B1BB6BFD100AC6CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ABCBA8B1BB6BFD100AC6CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBA8A1BB6BFD100AC6CA9 /* SMS-Example-iOS.app */,
+				0ABCBAA11BB6BFDF00AC6CA9 /* SMS-Example-OSX.app */,
+				0ABCBAB51BB6C01E00AC6CA9 /* SSMSFramework-iOS.framework */,
+				0ABCBAD11BB6C03600AC6CA9 /* SSMSFramework-OSX.framework */,
+				0ABCBADD1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ABCBA8C1BB6BFD100AC6CA9 /* SMS-Example-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBA8D1BB6BFD100AC6CA9 /* AppDelegate.swift */,
+				0ABCBA8F1BB6BFD100AC6CA9 /* ViewController.swift */,
+				0ABCBA911BB6BFD100AC6CA9 /* Main.storyboard */,
+				0ABCBA941BB6BFD100AC6CA9 /* Assets.xcassets */,
+				0ABCBA961BB6BFD100AC6CA9 /* LaunchScreen.storyboard */,
+				0ABCBA991BB6BFD100AC6CA9 /* Info.plist */,
+			);
+			path = "SMS-Example-iOS";
+			sourceTree = "<group>";
+		};
+		0ABCBAA21BB6BFDF00AC6CA9 /* SMS-Example-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBAA31BB6BFDF00AC6CA9 /* AppDelegate.swift */,
+				0ABCBAA51BB6BFDF00AC6CA9 /* ViewController.swift */,
+				0ABCBAA71BB6BFDF00AC6CA9 /* Assets.xcassets */,
+				0ABCBAA91BB6BFDF00AC6CA9 /* Main.storyboard */,
+				0ABCBAAC1BB6BFDF00AC6CA9 /* Info.plist */,
+			);
+			path = "SMS-Example-OSX";
+			sourceTree = "<group>";
+		};
+		0ABCBAB61BB6C01E00AC6CA9 /* SSMSFramework-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBAB71BB6C01E00AC6CA9 /* SSMSFramework-iOS.h */,
+				0ABCBAB91BB6C01E00AC6CA9 /* Info.plist */,
+			);
+			path = "SSMSFramework-iOS";
+			sourceTree = "<group>";
+		};
+		0ABCBAD21BB6C03600AC6CA9 /* SSMSFramework-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBAD31BB6C03600AC6CA9 /* SSMSFramework-OSX.h */,
+				0ABCBAD51BB6C03600AC6CA9 /* Info.plist */,
+			);
+			path = "SSMSFramework-OSX";
+			sourceTree = "<group>";
+		};
+		0ABCBADE1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBADF1BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift */,
+				0ABCBAE11BB6C05400AC6CA9 /* Info.plist */,
+			);
+			path = "SSMS-Framework-OSX-Tests";
+			sourceTree = "<group>";
+		};
+		0ABCBAE81BB6C05E00AC6CA9 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBAE91BB6C08000AC6CA9 /* Common */,
+				0ABCBAB61BB6C01E00AC6CA9 /* SSMSFramework-iOS */,
+				0ABCBAD21BB6C03600AC6CA9 /* SSMSFramework-OSX */,
+				0ABCBADE1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		0ABCBAE91BB6C08000AC6CA9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0ABCBAEA1BB6C0AF00AC6CA9 /* Example Apps */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBAA21BB6BFDF00AC6CA9 /* SMS-Example-OSX */,
+				0ABCBA8C1BB6BFD100AC6CA9 /* SMS-Example-iOS */,
+			);
+			name = "Example Apps";
+			path = Examples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ABCBAB21BB6C01E00AC6CA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCBAB81BB6C01E00AC6CA9 /* SSMSFramework-iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBACE1BB6C03600AC6CA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCBAD41BB6C03600AC6CA9 /* SSMSFramework-OSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0ABCBA891BB6BFD100AC6CA9 /* SMS-Example-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABCBA9A1BB6BFD100AC6CA9 /* Build configuration list for PBXNativeTarget "SMS-Example-iOS" */;
+			buildPhases = (
+				0ABCBA861BB6BFD100AC6CA9 /* Sources */,
+				0ABCBA871BB6BFD100AC6CA9 /* Frameworks */,
+				0ABCBA881BB6BFD100AC6CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMS-Example-iOS";
+			productName = "SMS-Example-iOS";
+			productReference = 0ABCBA8A1BB6BFD100AC6CA9 /* SMS-Example-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0ABCBAA01BB6BFDF00AC6CA9 /* SMS-Example-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABCBAAD1BB6BFDF00AC6CA9 /* Build configuration list for PBXNativeTarget "SMS-Example-OSX" */;
+			buildPhases = (
+				0ABCBA9D1BB6BFDF00AC6CA9 /* Sources */,
+				0ABCBA9E1BB6BFDF00AC6CA9 /* Frameworks */,
+				0ABCBA9F1BB6BFDF00AC6CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMS-Example-OSX";
+			productName = "SMS-Example-OSX";
+			productReference = 0ABCBAA11BB6BFDF00AC6CA9 /* SMS-Example-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0ABCBAB41BB6C01E00AC6CA9 /* SSMSFramework-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABCBAC61BB6C01E00AC6CA9 /* Build configuration list for PBXNativeTarget "SSMSFramework-iOS" */;
+			buildPhases = (
+				0ABCBAB01BB6C01E00AC6CA9 /* Sources */,
+				0ABCBAB11BB6C01E00AC6CA9 /* Frameworks */,
+				0ABCBAB21BB6C01E00AC6CA9 /* Headers */,
+				0ABCBAB31BB6C01E00AC6CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSMSFramework-iOS";
+			productName = "SSMSFramework-iOS";
+			productReference = 0ABCBAB51BB6C01E00AC6CA9 /* SSMSFramework-iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0ABCBAD01BB6C03600AC6CA9 /* SSMSFramework-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABCBAD61BB6C03600AC6CA9 /* Build configuration list for PBXNativeTarget "SSMSFramework-OSX" */;
+			buildPhases = (
+				0ABCBACC1BB6C03600AC6CA9 /* Sources */,
+				0ABCBACD1BB6C03600AC6CA9 /* Frameworks */,
+				0ABCBACE1BB6C03600AC6CA9 /* Headers */,
+				0ABCBACF1BB6C03600AC6CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSMSFramework-OSX";
+			productName = "SSMSFramework-OSX";
+			productReference = 0ABCBAD11BB6C03600AC6CA9 /* SSMSFramework-OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0ABCBADC1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABCBAE51BB6C05400AC6CA9 /* Build configuration list for PBXNativeTarget "SSMS-Framework-OSX-Tests" */;
+			buildPhases = (
+				0ABCBAD91BB6C05400AC6CA9 /* Sources */,
+				0ABCBADA1BB6C05400AC6CA9 /* Frameworks */,
+				0ABCBADB1BB6C05400AC6CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ABCBAE41BB6C05400AC6CA9 /* PBXTargetDependency */,
+			);
+			name = "SSMS-Framework-OSX-Tests";
+			productName = "SSMS-Framework-OSX-Tests";
+			productReference = 0ABCBADD1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ABCBA801BB6BFBB00AC6CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0ABCBA891BB6BFD100AC6CA9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ABCBAA01BB6BFDF00AC6CA9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ABCBAB41BB6C01E00AC6CA9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ABCBAD01BB6C03600AC6CA9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ABCBADC1BB6C05400AC6CA9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0ABCBA831BB6BFBB00AC6CA9 /* Build configuration list for PBXProject "SwiftSMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ABCBA7F1BB6BFBB00AC6CA9;
+			productRefGroup = 0ABCBA8B1BB6BFD100AC6CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ABCBA891BB6BFD100AC6CA9 /* SMS-Example-iOS */,
+				0ABCBAA01BB6BFDF00AC6CA9 /* SMS-Example-OSX */,
+				0ABCBAB41BB6C01E00AC6CA9 /* SSMSFramework-iOS */,
+				0ABCBAD01BB6C03600AC6CA9 /* SSMSFramework-OSX */,
+				0ABCBADC1BB6C05400AC6CA9 /* SSMS-Framework-OSX-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ABCBA881BB6BFD100AC6CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCBA981BB6BFD100AC6CA9 /* LaunchScreen.storyboard in Resources */,
+				0ABCBA951BB6BFD100AC6CA9 /* Assets.xcassets in Resources */,
+				0ABCBA931BB6BFD100AC6CA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBA9F1BB6BFDF00AC6CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCBAA81BB6BFDF00AC6CA9 /* Assets.xcassets in Resources */,
+				0ABCBAAB1BB6BFDF00AC6CA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBAB31BB6C01E00AC6CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBACF1BB6C03600AC6CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBADB1BB6C05400AC6CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ABCBA861BB6BFD100AC6CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCBA901BB6BFD100AC6CA9 /* ViewController.swift in Sources */,
+				0ABCBA8E1BB6BFD100AC6CA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBA9D1BB6BFDF00AC6CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCBAA61BB6BFDF00AC6CA9 /* ViewController.swift in Sources */,
+				0ABCBAA41BB6BFDF00AC6CA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBAB01BB6C01E00AC6CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBACC1BB6C03600AC6CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABCBAD91BB6C05400AC6CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCBAE01BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ABCBAE41BB6C05400AC6CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ABCBAD01BB6C03600AC6CA9 /* SSMSFramework-OSX */;
+			targetProxy = 0ABCBAE31BB6C05400AC6CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0ABCBA911BB6BFD100AC6CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ABCBA921BB6BFD100AC6CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ABCBA961BB6BFD100AC6CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ABCBA971BB6BFD100AC6CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0ABCBAA91BB6BFDF00AC6CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ABCBAAA1BB6BFDF00AC6CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ABCBA841BB6BFBB00AC6CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0ABCBA851BB6BFBB00AC6CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		0ABCBA9B1BB6BFD100AC6CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SMS-Example-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SMS-Example-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ABCBA9C1BB6BFD100AC6CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SMS-Example-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SMS-Example-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ABCBAAE1BB6BFDF00AC6CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SMS-Example-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SMS-Example-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ABCBAAF1BB6BFDF00AC6CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SMS-Example-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SMS-Example-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0ABCBAC71BB6C01E00AC6CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SSMSFramework-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMSFramework-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ABCBAC81BB6C01E00AC6CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SSMSFramework-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMSFramework-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ABCBAD71BB6C03600AC6CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SSMSFramework-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMSFramework-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ABCBAD81BB6C03600AC6CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SSMSFramework-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMSFramework-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ABCBAE61BB6C05400AC6CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SSMS-Framework-OSX-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMS-Framework-OSX-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ABCBAE71BB6C05400AC6CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SSMS-Framework-OSX-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rknLA.SSMS-Framework-OSX-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ABCBA831BB6BFBB00AC6CA9 /* Build configuration list for PBXProject "SwiftSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABCBA841BB6BFBB00AC6CA9 /* Debug */,
+				0ABCBA851BB6BFBB00AC6CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ABCBA9A1BB6BFD100AC6CA9 /* Build configuration list for PBXNativeTarget "SMS-Example-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABCBA9B1BB6BFD100AC6CA9 /* Debug */,
+				0ABCBA9C1BB6BFD100AC6CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ABCBAAD1BB6BFDF00AC6CA9 /* Build configuration list for PBXNativeTarget "SMS-Example-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABCBAAE1BB6BFDF00AC6CA9 /* Debug */,
+				0ABCBAAF1BB6BFDF00AC6CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ABCBAC61BB6C01E00AC6CA9 /* Build configuration list for PBXNativeTarget "SSMSFramework-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABCBAC71BB6C01E00AC6CA9 /* Debug */,
+				0ABCBAC81BB6C01E00AC6CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ABCBAD61BB6C03600AC6CA9 /* Build configuration list for PBXNativeTarget "SSMSFramework-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABCBAD71BB6C03600AC6CA9 /* Debug */,
+				0ABCBAD81BB6C03600AC6CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ABCBAE51BB6C05400AC6CA9 /* Build configuration list for PBXNativeTarget "SSMS-Framework-OSX-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABCBAE61BB6C05400AC6CA9 /* Debug */,
+				0ABCBAE71BB6C05400AC6CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ABCBA801BB6BFBB00AC6CA9 /* Project object */;
+}
