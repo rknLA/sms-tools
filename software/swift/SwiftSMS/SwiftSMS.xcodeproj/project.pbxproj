@@ -23,6 +23,40 @@
 		0ABCBAEC1BB6C24B00AC6CA9 /* SineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBAEB1BB6C24B00AC6CA9 /* SineModel.swift */; settings = {ASSET_TAGS = (); }; };
 		0ABCBAED1BB6C24B00AC6CA9 /* SineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBAEB1BB6C24B00AC6CA9 /* SineModel.swift */; settings = {ASSET_TAGS = (); }; };
 		0ABCBAEE1BB6C2ED00AC6CA9 /* SSMS_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABCBAB51BB6C01E00AC6CA9 /* SSMS_iOS.framework */; };
+		0ABCBB131BB6C4D900AC6CA9 /* bendir.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF01BB6C4D900AC6CA9 /* bendir.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB141BB6C4D900AC6CA9 /* carnatic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF11BB6C4D900AC6CA9 /* carnatic.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB151BB6C4D900AC6CA9 /* cello-double-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF21BB6C4D900AC6CA9 /* cello-double-2.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB161BB6C4D900AC6CA9 /* cello-double.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF31BB6C4D900AC6CA9 /* cello-double.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB171BB6C4D900AC6CA9 /* cello-phrase.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF41BB6C4D900AC6CA9 /* cello-phrase.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB181BB6C4D900AC6CA9 /* chirp-150-190-linear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF51BB6C4D900AC6CA9 /* chirp-150-190-linear.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB191BB6C4D900AC6CA9 /* flute-A4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF61BB6C4D900AC6CA9 /* flute-A4.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB1A1BB6C4D900AC6CA9 /* impulse-response.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF71BB6C4D900AC6CA9 /* impulse-response.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB1B1BB6C4D900AC6CA9 /* mridangam.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF81BB6C4D900AC6CA9 /* mridangam.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB1C1BB6C4D900AC6CA9 /* multiSines.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAF91BB6C4D900AC6CA9 /* multiSines.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB1D1BB6C4D900AC6CA9 /* oboe-A4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAFA1BB6C4D900AC6CA9 /* oboe-A4.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB1E1BB6C4D900AC6CA9 /* ocean.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAFB1BB6C4D900AC6CA9 /* ocean.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB1F1BB6C4D900AC6CA9 /* orchestra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAFC1BB6C4D900AC6CA9 /* orchestra.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB201BB6C4D900AC6CA9 /* organ-C3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAFD1BB6C4D900AC6CA9 /* organ-C3.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB211BB6C4D900AC6CA9 /* piano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAFE1BB6C4D900AC6CA9 /* piano.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB221BB6C4D900AC6CA9 /* rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBAFF1BB6C4D900AC6CA9 /* rain.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB241BB6C4D900AC6CA9 /* sawtooth-440.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB011BB6C4D900AC6CA9 /* sawtooth-440.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB251BB6C4D900AC6CA9 /* sax-phrase-short.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB021BB6C4D900AC6CA9 /* sax-phrase-short.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB261BB6C4D900AC6CA9 /* sax-phrase.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB031BB6C4D900AC6CA9 /* sax-phrase.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB271BB6C4D900AC6CA9 /* sine-101.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB041BB6C4D900AC6CA9 /* sine-101.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB281BB6C4D900AC6CA9 /* sine-200.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB051BB6C4D900AC6CA9 /* sine-200.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB291BB6C4D900AC6CA9 /* sine-440-490.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB061BB6C4D900AC6CA9 /* sine-440-490.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB2A1BB6C4D900AC6CA9 /* sine-440.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB071BB6C4D900AC6CA9 /* sine-440.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB2B1BB6C4D900AC6CA9 /* sine-490.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB081BB6C4D900AC6CA9 /* sine-490.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB2C1BB6C4D900AC6CA9 /* sine-1000.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB091BB6C4D900AC6CA9 /* sine-1000.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB2D1BB6C4D900AC6CA9 /* sines-440-602-hRange.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB0A1BB6C4D900AC6CA9 /* sines-440-602-hRange.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB2E1BB6C4D900AC6CA9 /* sines-440-602-transient.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB0B1BB6C4D900AC6CA9 /* sines-440-602-transient.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB2F1BB6C4D900AC6CA9 /* singing-female.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB0C1BB6C4D900AC6CA9 /* singing-female.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB301BB6C4D900AC6CA9 /* soprano-E4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB0D1BB6C4D900AC6CA9 /* soprano-E4.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB311BB6C4D900AC6CA9 /* speech-female.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB0E1BB6C4D900AC6CA9 /* speech-female.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB321BB6C4D900AC6CA9 /* speech-male.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB0F1BB6C4D900AC6CA9 /* speech-male.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB331BB6C4D900AC6CA9 /* vibraphone-C6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB101BB6C4D900AC6CA9 /* vibraphone-C6.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB341BB6C4D900AC6CA9 /* vignesh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB111BB6C4D900AC6CA9 /* vignesh.wav */; settings = {ASSET_TAGS = (); }; };
+		0ABCBB351BB6C4D900AC6CA9 /* violin-B3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB121BB6C4D900AC6CA9 /* violin-B3.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +93,40 @@
 		0ABCBADF1BB6C05400AC6CA9 /* SSMS_Framework_OSX_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMS_Framework_OSX_Tests.swift; sourceTree = "<group>"; };
 		0ABCBAE11BB6C05400AC6CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ABCBAEB1BB6C24B00AC6CA9 /* SineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineModel.swift; sourceTree = "<group>"; };
+		0ABCBAF01BB6C4D900AC6CA9 /* bendir.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bendir.wav; sourceTree = "<group>"; };
+		0ABCBAF11BB6C4D900AC6CA9 /* carnatic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = carnatic.wav; sourceTree = "<group>"; };
+		0ABCBAF21BB6C4D900AC6CA9 /* cello-double-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cello-double-2.wav"; sourceTree = "<group>"; };
+		0ABCBAF31BB6C4D900AC6CA9 /* cello-double.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cello-double.wav"; sourceTree = "<group>"; };
+		0ABCBAF41BB6C4D900AC6CA9 /* cello-phrase.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cello-phrase.wav"; sourceTree = "<group>"; };
+		0ABCBAF51BB6C4D900AC6CA9 /* chirp-150-190-linear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chirp-150-190-linear.wav"; sourceTree = "<group>"; };
+		0ABCBAF61BB6C4D900AC6CA9 /* flute-A4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "flute-A4.wav"; sourceTree = "<group>"; };
+		0ABCBAF71BB6C4D900AC6CA9 /* impulse-response.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "impulse-response.wav"; sourceTree = "<group>"; };
+		0ABCBAF81BB6C4D900AC6CA9 /* mridangam.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mridangam.wav; sourceTree = "<group>"; };
+		0ABCBAF91BB6C4D900AC6CA9 /* multiSines.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = multiSines.wav; sourceTree = "<group>"; };
+		0ABCBAFA1BB6C4D900AC6CA9 /* oboe-A4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "oboe-A4.wav"; sourceTree = "<group>"; };
+		0ABCBAFB1BB6C4D900AC6CA9 /* ocean.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ocean.wav; sourceTree = "<group>"; };
+		0ABCBAFC1BB6C4D900AC6CA9 /* orchestra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = orchestra.wav; sourceTree = "<group>"; };
+		0ABCBAFD1BB6C4D900AC6CA9 /* organ-C3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "organ-C3.wav"; sourceTree = "<group>"; };
+		0ABCBAFE1BB6C4D900AC6CA9 /* piano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = piano.wav; sourceTree = "<group>"; };
+		0ABCBAFF1BB6C4D900AC6CA9 /* rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rain.wav; sourceTree = "<group>"; };
+		0ABCBB011BB6C4D900AC6CA9 /* sawtooth-440.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sawtooth-440.wav"; sourceTree = "<group>"; };
+		0ABCBB021BB6C4D900AC6CA9 /* sax-phrase-short.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sax-phrase-short.wav"; sourceTree = "<group>"; };
+		0ABCBB031BB6C4D900AC6CA9 /* sax-phrase.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sax-phrase.wav"; sourceTree = "<group>"; };
+		0ABCBB041BB6C4D900AC6CA9 /* sine-101.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sine-101.wav"; sourceTree = "<group>"; };
+		0ABCBB051BB6C4D900AC6CA9 /* sine-200.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sine-200.wav"; sourceTree = "<group>"; };
+		0ABCBB061BB6C4D900AC6CA9 /* sine-440-490.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sine-440-490.wav"; sourceTree = "<group>"; };
+		0ABCBB071BB6C4D900AC6CA9 /* sine-440.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sine-440.wav"; sourceTree = "<group>"; };
+		0ABCBB081BB6C4D900AC6CA9 /* sine-490.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sine-490.wav"; sourceTree = "<group>"; };
+		0ABCBB091BB6C4D900AC6CA9 /* sine-1000.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sine-1000.wav"; sourceTree = "<group>"; };
+		0ABCBB0A1BB6C4D900AC6CA9 /* sines-440-602-hRange.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sines-440-602-hRange.wav"; sourceTree = "<group>"; };
+		0ABCBB0B1BB6C4D900AC6CA9 /* sines-440-602-transient.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sines-440-602-transient.wav"; sourceTree = "<group>"; };
+		0ABCBB0C1BB6C4D900AC6CA9 /* singing-female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "singing-female.wav"; sourceTree = "<group>"; };
+		0ABCBB0D1BB6C4D900AC6CA9 /* soprano-E4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "soprano-E4.wav"; sourceTree = "<group>"; };
+		0ABCBB0E1BB6C4D900AC6CA9 /* speech-female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "speech-female.wav"; sourceTree = "<group>"; };
+		0ABCBB0F1BB6C4D900AC6CA9 /* speech-male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "speech-male.wav"; sourceTree = "<group>"; };
+		0ABCBB101BB6C4D900AC6CA9 /* vibraphone-C6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vibraphone-C6.wav"; sourceTree = "<group>"; };
+		0ABCBB111BB6C4D900AC6CA9 /* vignesh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vignesh.wav; sourceTree = "<group>"; };
+		0ABCBB121BB6C4D900AC6CA9 /* violin-B3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "violin-B3.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +246,7 @@
 		0ABCBAE81BB6C05E00AC6CA9 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				0ABCBAEF1BB6C4A700AC6CA9 /* Sounds */,
 				0ABCBAE91BB6C08000AC6CA9 /* Common */,
 				0ABCBAB61BB6C01E00AC6CA9 /* SSMSFramework-iOS */,
 				0ABCBAD21BB6C03600AC6CA9 /* SSMSFramework-OSX */,
@@ -202,6 +271,48 @@
 			);
 			name = "Example Apps";
 			path = Examples;
+			sourceTree = "<group>";
+		};
+		0ABCBAEF1BB6C4A700AC6CA9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCBAF01BB6C4D900AC6CA9 /* bendir.wav */,
+				0ABCBAF11BB6C4D900AC6CA9 /* carnatic.wav */,
+				0ABCBAF21BB6C4D900AC6CA9 /* cello-double-2.wav */,
+				0ABCBAF31BB6C4D900AC6CA9 /* cello-double.wav */,
+				0ABCBAF41BB6C4D900AC6CA9 /* cello-phrase.wav */,
+				0ABCBAF51BB6C4D900AC6CA9 /* chirp-150-190-linear.wav */,
+				0ABCBAF61BB6C4D900AC6CA9 /* flute-A4.wav */,
+				0ABCBAF71BB6C4D900AC6CA9 /* impulse-response.wav */,
+				0ABCBAF81BB6C4D900AC6CA9 /* mridangam.wav */,
+				0ABCBAF91BB6C4D900AC6CA9 /* multiSines.wav */,
+				0ABCBAFA1BB6C4D900AC6CA9 /* oboe-A4.wav */,
+				0ABCBAFB1BB6C4D900AC6CA9 /* ocean.wav */,
+				0ABCBAFC1BB6C4D900AC6CA9 /* orchestra.wav */,
+				0ABCBAFD1BB6C4D900AC6CA9 /* organ-C3.wav */,
+				0ABCBAFE1BB6C4D900AC6CA9 /* piano.wav */,
+				0ABCBAFF1BB6C4D900AC6CA9 /* rain.wav */,
+				0ABCBB011BB6C4D900AC6CA9 /* sawtooth-440.wav */,
+				0ABCBB021BB6C4D900AC6CA9 /* sax-phrase-short.wav */,
+				0ABCBB031BB6C4D900AC6CA9 /* sax-phrase.wav */,
+				0ABCBB041BB6C4D900AC6CA9 /* sine-101.wav */,
+				0ABCBB051BB6C4D900AC6CA9 /* sine-200.wav */,
+				0ABCBB061BB6C4D900AC6CA9 /* sine-440-490.wav */,
+				0ABCBB071BB6C4D900AC6CA9 /* sine-440.wav */,
+				0ABCBB081BB6C4D900AC6CA9 /* sine-490.wav */,
+				0ABCBB091BB6C4D900AC6CA9 /* sine-1000.wav */,
+				0ABCBB0A1BB6C4D900AC6CA9 /* sines-440-602-hRange.wav */,
+				0ABCBB0B1BB6C4D900AC6CA9 /* sines-440-602-transient.wav */,
+				0ABCBB0C1BB6C4D900AC6CA9 /* singing-female.wav */,
+				0ABCBB0D1BB6C4D900AC6CA9 /* soprano-E4.wav */,
+				0ABCBB0E1BB6C4D900AC6CA9 /* speech-female.wav */,
+				0ABCBB0F1BB6C4D900AC6CA9 /* speech-male.wav */,
+				0ABCBB101BB6C4D900AC6CA9 /* vibraphone-C6.wav */,
+				0ABCBB111BB6C4D900AC6CA9 /* vignesh.wav */,
+				0ABCBB121BB6C4D900AC6CA9 /* violin-B3.wav */,
+			);
+			name = Sounds;
+			path = ../../../../sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,6 +514,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABCBB301BB6C4D900AC6CA9 /* soprano-E4.wav in Resources */,
+				0ABCBB241BB6C4D900AC6CA9 /* sawtooth-440.wav in Resources */,
+				0ABCBB201BB6C4D900AC6CA9 /* organ-C3.wav in Resources */,
+				0ABCBB131BB6C4D900AC6CA9 /* bendir.wav in Resources */,
+				0ABCBB1C1BB6C4D900AC6CA9 /* multiSines.wav in Resources */,
+				0ABCBB1B1BB6C4D900AC6CA9 /* mridangam.wav in Resources */,
+				0ABCBB2D1BB6C4D900AC6CA9 /* sines-440-602-hRange.wav in Resources */,
+				0ABCBB281BB6C4D900AC6CA9 /* sine-200.wav in Resources */,
+				0ABCBB2E1BB6C4D900AC6CA9 /* sines-440-602-transient.wav in Resources */,
+				0ABCBB1F1BB6C4D900AC6CA9 /* orchestra.wav in Resources */,
+				0ABCBB2C1BB6C4D900AC6CA9 /* sine-1000.wav in Resources */,
+				0ABCBB351BB6C4D900AC6CA9 /* violin-B3.wav in Resources */,
+				0ABCBB151BB6C4D900AC6CA9 /* cello-double-2.wav in Resources */,
+				0ABCBB2F1BB6C4D900AC6CA9 /* singing-female.wav in Resources */,
+				0ABCBB251BB6C4D900AC6CA9 /* sax-phrase-short.wav in Resources */,
+				0ABCBB321BB6C4D900AC6CA9 /* speech-male.wav in Resources */,
+				0ABCBB171BB6C4D900AC6CA9 /* cello-phrase.wav in Resources */,
+				0ABCBB1A1BB6C4D900AC6CA9 /* impulse-response.wav in Resources */,
+				0ABCBB2A1BB6C4D900AC6CA9 /* sine-440.wav in Resources */,
+				0ABCBB331BB6C4D900AC6CA9 /* vibraphone-C6.wav in Resources */,
+				0ABCBB291BB6C4D900AC6CA9 /* sine-440-490.wav in Resources */,
+				0ABCBB211BB6C4D900AC6CA9 /* piano.wav in Resources */,
+				0ABCBB271BB6C4D900AC6CA9 /* sine-101.wav in Resources */,
+				0ABCBB341BB6C4D900AC6CA9 /* vignesh.wav in Resources */,
+				0ABCBB1D1BB6C4D900AC6CA9 /* oboe-A4.wav in Resources */,
+				0ABCBB2B1BB6C4D900AC6CA9 /* sine-490.wav in Resources */,
+				0ABCBB1E1BB6C4D900AC6CA9 /* ocean.wav in Resources */,
+				0ABCBB141BB6C4D900AC6CA9 /* carnatic.wav in Resources */,
+				0ABCBB181BB6C4D900AC6CA9 /* chirp-150-190-linear.wav in Resources */,
+				0ABCBB161BB6C4D900AC6CA9 /* cello-double.wav in Resources */,
+				0ABCBB311BB6C4D900AC6CA9 /* speech-female.wav in Resources */,
+				0ABCBB221BB6C4D900AC6CA9 /* rain.wav in Resources */,
+				0ABCBB261BB6C4D900AC6CA9 /* sax-phrase.wav in Resources */,
+				0ABCBB191BB6C4D900AC6CA9 /* flute-A4.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
