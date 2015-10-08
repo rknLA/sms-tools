@@ -9,13 +9,14 @@
 import UIKit
 import SSMS_iOS
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let sm = SineModel()
-        sm.analyze()
+
+        let sineTrackingResult = SMS.sineTracking("hi")
+        print("sine tracking result \(sineTrackingResult)")
     }
 
     override func didReceiveMemoryWarning() {

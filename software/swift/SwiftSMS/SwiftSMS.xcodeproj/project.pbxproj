@@ -57,6 +57,8 @@
 		0ABCBB331BB6C4D900AC6CA9 /* vibraphone-C6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB101BB6C4D900AC6CA9 /* vibraphone-C6.wav */; settings = {ASSET_TAGS = (); }; };
 		0ABCBB341BB6C4D900AC6CA9 /* vignesh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB111BB6C4D900AC6CA9 /* vignesh.wav */; settings = {ASSET_TAGS = (); }; };
 		0ABCBB351BB6C4D900AC6CA9 /* violin-B3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCBB121BB6C4D900AC6CA9 /* violin-B3.wav */; settings = {ASSET_TAGS = (); }; };
+		0ADA8F841BC6E5630025709B /* SMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA8F831BC6E5630025709B /* SMS.swift */; settings = {ASSET_TAGS = (); }; };
+		0ADA8F851BC6E5630025709B /* SMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA8F831BC6E5630025709B /* SMS.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +129,7 @@
 		0ABCBB101BB6C4D900AC6CA9 /* vibraphone-C6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vibraphone-C6.wav"; sourceTree = "<group>"; };
 		0ABCBB111BB6C4D900AC6CA9 /* vignesh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vignesh.wav; sourceTree = "<group>"; };
 		0ABCBB121BB6C4D900AC6CA9 /* violin-B3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "violin-B3.wav"; sourceTree = "<group>"; };
+		0ADA8F831BC6E5630025709B /* SMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				0ABCBAEB1BB6C24B00AC6CA9 /* SineModel.swift */,
+				0ADA8F831BC6E5630025709B /* SMS.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -577,6 +581,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABCBAEC1BB6C24B00AC6CA9 /* SineModel.swift in Sources */,
+				0ADA8F841BC6E5630025709B /* SMS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +590,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABCBAED1BB6C24B00AC6CA9 /* SineModel.swift in Sources */,
+				0ADA8F851BC6E5630025709B /* SMS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
